@@ -1,7 +1,7 @@
 import css from "./LoadMoreBtn.module.css";
 const LoadMoreBtn = ({ children, onClick, disabled }) => {
   return (
-    <button className={css.button} onClick={onClick} disabled={disabled}>
+    <button className={css.LoadBtn} onClick={onClick} disabled={disabled}>
       {children}
     </button>
   );
